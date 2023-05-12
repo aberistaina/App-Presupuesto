@@ -1,6 +1,6 @@
 input {
-    width: 100% !important;
-    background-color:transparent !important;
+    width: 100% !important; /*No pude hacerlo si important*/
+    background-color:transparent !important; /*No pude hacerlo si important*/
 }
 
 h1 {
@@ -25,3 +25,4 @@ label {
 .detalle {
     margin-top: 100px;
 }
+
