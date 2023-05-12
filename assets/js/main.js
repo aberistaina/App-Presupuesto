@@ -54,7 +54,7 @@ function agregarGastos() {
         precioGasto > 0
     ) {
         objeto = new ListaGastos(detalleGasto, precioGasto, imagen); 
-        //antes de crear la Class, lo había hecho directamente creando un objeto.
+        //antes de crear la Clase, lo había hecho directamente creando un objeto.
         //{nombre: detalleGasto,  valor: precioGasto, imagen: "./assets/img/basurero.png"}
         listaGastos.push(objeto);
         limpiar();
